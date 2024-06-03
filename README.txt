@@ -1,4 +1,4 @@
-This is a repository for TEE probe sensorization. The code reported here is related to the IEEE TMRB paper "A Multi-sensorization Approach to Improve Safety in Transesophageal Echocardiography".
+This is a repository for TEE probe sensorization. The code reported here is related to the IEEE TMRB paper "A Multi-sensorization Approach to Improve Safety in Transesophageal Echocardiography" (https://ieeexplore.ieee.org/abstract/document/10542419).
 
 In the Sensor fusion folder, code for sensor data upsampling and import to ROS topics and finite state machine based EKF-IKF fusion is provided. The code was developed for ROS Noetic. Please update the upsample node by configuring the input topics based on the sensors you are currently using.
 
